@@ -1,0 +1,332 @@
+body,h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.bg{
+    background: #f7f9ff;
+}
+
+/*heder*/
+.min-header{
+    background:#fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+.min-header .navbar-brand{
+    font-size: 25PX;
+    font-weight: 500;
+}
+.min-header span{
+    background: #4834d4;
+    color: #fff;
+    padding: 7px 13px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.min-menu .nav-link{
+    padding-left: 20px! important ;
+    padding-right: 20px!important;
+}
+
+/*banner*/
+.banner-section{
+    background:url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    
+}
+.banner-section::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.banner-section .h4{
+    margin-bottom: 40px;
+}
+.banner-section h2{
+    margin-bottom: 50px;
+    font-size: 47px;
+}
+.banner-section .btn{
+    background: #6ab04c;
+    padding: 17px 60px;
+    font-weight: 600;
+    box-shadow: rgba(98, 120, 223, 0.7);
+}
+.banner-section .btn:hover{
+    background: #fff;
+    color: #4834d4;
+    box-shadow: rgba(98, 120, 223, 0.7);
+}
+.banner-section .form-control{
+    padding:17px 20px;
+}
+/*number*/
+.number-section{
+    padding: 100px 0;
+}
+.number-section h1{
+    font-size: 60px;
+}
+.number-section h5{}
+
+/*text-img*/
+.text-img{
+    background: #f7f9ff;
+}
+.text-on{
+    margin-top: 170px;
+}
+.text-on h2{
+    margin-bottom: 30px;
+    font-size: 39px;
+    
+}
+.text-on p{
+    font-size: 20px;
+    line-height: 2.6rem;
+}
+/*def-pic*/
+
+.mio h1{
+    margin-bottom: 30px;
+    font-size: 45px;
+    margin-top: 30px;
+
+}
+.mio p{
+    font-size: 24px;
+    margin-bottom: 90px;
+    color: #777;
+}
+
+
+
+.def-pic-item{
+    height: 300px;
+    box-shadow:2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+}
+.left-pic{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-pic img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+.right-pic{
+    width: 60%;
+    padding: 20px;
+}
+
+/*sodu sdobi*/
+.mit h2{
+    margin-bottom: 60px;
+    font-size: 46px;
+}
+.sodu-sobi{}
+.sodu-ami a{
+    position: relative;
+    display:block;
+}
+.sodu-ami a::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(98, 120, 223, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.sodu-ami:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+/*doi-colam*/
+.doi-colam{
+    background: #f7f9ff;
+}
+.doi-text h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.doi-text h5{
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+
+.doi-colam-bag {
+    background: #ffffff;
+    padding: 50px;
+    padding-right: 0;
+    box-shadow:2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.3);
+    border-radius: 5px;
+}
+.doi-colam-bag h1{
+    margin-bottom: 30px;
+}
+.doi-colam-bag h5{
+    margin-bottom: 40px;
+    color: #777;
+}
+.doi-colam-bag ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 47px;
+}
+.doi-colam-bag ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+.doi-colam-bag ul li span{
+    color: #657be0;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-block;
+    width: 40px;
+}
+
+.doi-button{}
+.doi-button a{
+    border-color: #657be0;
+    color: #657be0;
+    box-shadow:2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.4);
+    padding: 14px 28px;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+/*test esy*/
+.test-img {
+    width: 260px;
+    margin: auto;
+}
+.test-img img{
+    width: 60px;
+    margin-right: 10px;
+}
+
+.img-text{
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+.test-content{}
+.test-content h6{
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.test-content h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.test-content span{
+    font-size: 80px;
+
+    color:#ddd;
+}
+
+/*about*/
+.about-section{
+    padding: 200px 0;
+}
+.about-item{}
+.about-item .card{}
+.about-item .card img{
+    width: 120px;
+    height: auto;
+    margin-top: -60px;
+    margin-left: 20px;
+
+}
+.crem-man{
+    margin-bottom: 140px;
+}
+.crem-man p{
+    font-size: 17px;
+    line-height: 1.8rem;
+}
+/*misty*/
+.contact-bio{
+    padding: 200px 0;
+}
+.contact-bio h6{
+    margin-bottom: 17px;
+    font-size: 21px;
+}
+.contact-bio h1{
+    margin-bottom: 90px;
+    font-size: 45px;
+}
+.contact-bio-item{}
+.contact-bio-item .form-control {
+    padding: 20px 20px;
+    transition: .5s;
+}
+.contact-bio-item .form-control:hover{
+    box-shadow:2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.4);
+
+}
+.contact-bio-item .btn{
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .4s;
+}
+.contact-bio-item .btn:hover{
+    background: #fff;
+    color:#27ae60;
+    box-shadow:2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.4);
+}
+.contact-bio-item .card{
+    box-shadow:2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+    padding: 50px;
+}
+
+/*badio*/
+.baddi-yao{
+    padding: 100px 0;
+}
+.lop h5{
+    color: #777;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.lop h1{
+    font-size: 50px;
+}
+
+.menoi .btn{
+    padding:20px 50px;
+    
+}
+.menoi a{
+    font-size: 18px;
+    font-weight: 800;
+}

@@ -1,0 +1,255 @@
+
+@media (max-width:1200px) {
+    .col-lg-5 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .col-lg-7 {
+        width: 100%;
+    }
+    .miu {
+        width: 50%;
+    }
+    .miw {
+        width: 50%;
+    }
+    .doi-colam-bag h5 {
+        font-size: 13px;
+    }
+    .test-content h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .lop h1 {
+        font-size: 33px;
+    }
+    .menoi .btn {
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width:992px) {
+    .col-lg-5 {
+        width: 99.666667%;
+    }
+    .banner-section h2 {
+        margin-bottom: 25px;
+        font-size: 36px;
+    }
+    .banner-section .h4 {
+        margin-bottom: 10px;
+        font-size: 19px;
+    }
+    .miu {
+        width: 49.5%;
+        margin-top: 160px;
+    }
+    .miw {
+        width: 49.5%;
+    }
+    .mio h1 {
+        margin-bottom: 20px;
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .mio p {
+        font-size: 19px;
+        margin-bottom: 50px;
+    }
+    .doi-colam-bag ul li {
+        margin-top: 17px;
+        margin-bottom: 17px;
+        font-size: 17px;
+    }
+    .doi-colam-bag ul li span {
+        font-size: 25px;
+    }
+    .doi-button a {
+        padding: 13px 25px;
+        font-size: 15px;
+    }
+    .test-content h6 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .test-content h1 {
+        font-size: 25px;
+    }
+    .test-content span {
+        font-size: 50px;
+    }
+    .test-content h1 {
+        font-size: 19px;
+    }
+    .about-item {
+        margin-bottom: 70px;
+    }
+    .contact-bio h1 {
+        margin-bottom: 80px;
+        font-size: 35px;
+    }
+    .dropdown-menu {
+        margin-left: 120px;
+    }
+}
+@media (max-width:768px) {
+    .banner-section h2 {
+        margin-bottom: 23px;
+        font-size: 26px;
+    }
+    .banner-section .h4 {
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+    .banner-section .form-control {
+        padding: 10px 20px;
+    }
+    .banner-section .btn {
+        padding: 10px 60px;
+    }
+    .text-on h2 {
+        margin-bottom: 18px;
+        font-size: 14px;
+        font-weight: 800;
+    }
+    .text-on p {
+        font-size: 15px;
+        line-height: 1.6rem;
+    }
+    .miu {
+        margin-top: 126px;
+    }
+    .right-pic h4{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .right-pic p{
+        font-size: 16px;
+    }
+    .mio h1 {
+        margin-bottom: 15px;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .mio p {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .mit h2 {
+        margin-bottom: 40px;
+        font-size: 37px;
+    }
+    .doi-colam-bag ul li {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+    .doi-colam-bag ul li span {
+        font-size: 20px;
+    }
+    .doi-colam-bag h1 {
+        font-size: 27px;
+    }
+    .doi-button a {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    .doi-text h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .doi-text h5 {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .lead {
+        font-size: 1.15rem;
+    }
+    .contact-bio h6 {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .contact-bio h1 {
+        margin-bottom: 40px;
+        font-size: 25px;
+    }
+}
+@media (max-width:576px) {
+    .banner-section .btn {
+        padding: 8px 0px;
+        font-size: 16px;
+    }
+    .banner-section .form-control {
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+    .text-center {
+        margin-bottom: 38px;
+    }
+    .number-section h1 {
+        font-size: 40px;
+    }
+    .miw {
+        width: 100%;
+    }
+    .miu{
+        width: 100%;
+        margin-top: -20px;
+    }
+    .text-on h2 {
+        margin-bottom: 23px;
+        font-size: 20px;
+    }
+    .mio h1 {
+        margin-bottom: 12px;
+        font-size: 20px;
+        margin-top: 12px;
+    }
+    .mio p {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .mit h2 {
+        font-size: 28px;
+    }
+    .doi-colam-bag {
+        margin-bottom: 20px;
+    }
+    .contact-bio h1 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .contact-bio h6 {
+        margin-bottom: 7px;
+        font-size: 12px;
+    }
+    .contact-bio-item .form-control {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .mb-5 {
+        margin-bottom: 1rem !important;
+        font-size: 22px;
+    }
+    .contact-bio-item .btn {
+        padding: 10px 0;
+        font-size: 18px;
+    }
+    .menoi .btn {
+        padding: 5px 100px;
+        margin-bottom: 10px;
+    }
+    .lop h1 {
+        font-size: 23px;
+    }
+    .lop h5 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .lead {
+        font-size: 13px;
+    }
+    .text-center {
+        margin-bottom: none;
+    }
+}
